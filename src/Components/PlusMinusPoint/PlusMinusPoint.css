@@ -1,0 +1,26 @@
+.point {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.point:hover {
+    cursor: pointer;
+}
+
+.point__line {
+    content: '';
+    width: 12px;
+    height: 2px;
+    background-color: #4af6cd;
+    position: absolute;
+    top: 45%;
+    left: 21%;
+    transition: all .5s ease-out;
+}
+
+/* .point__line:nth-child(1) {
+    transform: rotate(90deg);
+} */

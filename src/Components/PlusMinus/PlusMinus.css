@@ -1,0 +1,23 @@
+.counter__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    align-self: flex-end;
+}
+
+.counter__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    z-index: 2;
+    user-select: none;
+}
+
+.counter__inner:hover,
+.counter__icon:hover {
+    cursor: pointer;
+}

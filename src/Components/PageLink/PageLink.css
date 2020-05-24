@@ -1,0 +1,44 @@
+.link {
+    white-space: nowrap;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.link__link {
+    color: #ffffff;
+    font-size: 31px;
+    line-height: 35px;
+    position: relative;
+}
+
+.link__link span {
+    padding: 12px 57px 12px 17px;
+    margin-left: 19px;
+    background-color: #4af6cd;
+    display: inline-block;
+    position: relative;
+    transition: all .3s ease-out;
+    border: 1px solid transparent; 
+}
+
+.link__link span:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 1px;
+    background-color: #ffffff;
+    top: 50%;
+    left: -8px;
+}
+
+.link__link span:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+}
+
+.link__inner {
+    position: absolute;
+    top: 0;
+    right: 17px;
+}

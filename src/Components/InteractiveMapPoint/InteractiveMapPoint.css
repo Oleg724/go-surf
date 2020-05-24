@@ -1,0 +1,39 @@
+.slider-dots {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-dots__img {
+    width: 67px;
+    cursor: pointer;
+}
+
+.slider-dots__points {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slider-dots__triangle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 41px;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #4af6cd;
+    border-bottom-right-radius: 7px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .slider-dots__img {
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .slider-dots__triangle {
+        bottom: 29px;
+    }
+}

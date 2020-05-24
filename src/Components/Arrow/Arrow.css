@@ -1,0 +1,7 @@
+.arrow__img {
+    width: 25px;   
+}
+
+.arrow__img:hover > path {
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.coordinates {
+    width: 18px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 8px;
+}
+
+.coordinates__text {
+    white-space: nowrap;
+    opacity: .5;
+}
+
+@media screen and (max-width: 550px) {
+    .coordinates {
+        font-size: 14px;
+    }
+}

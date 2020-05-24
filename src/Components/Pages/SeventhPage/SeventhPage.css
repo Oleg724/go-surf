@@ -1,0 +1,5 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(100vw * .15);
+}

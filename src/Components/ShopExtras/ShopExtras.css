@@ -1,0 +1,18 @@
+.extras {
+    width: 100%; 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.extras__inner {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.extras__title {
+    font-size: 24px;
+}

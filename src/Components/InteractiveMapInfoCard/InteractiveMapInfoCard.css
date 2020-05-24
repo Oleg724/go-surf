@@ -1,0 +1,9 @@
+.info__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info__inner {
+    flex-direction: column;
+}

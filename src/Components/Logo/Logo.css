@@ -1,0 +1,38 @@
+.logo {
+    white-space: nowrap;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.logo__logo {
+    color: #ffffff;
+    font-size: 31px;
+    line-height: 35px;
+    position: relative;
+}
+
+.logo__logo span {
+    padding: 12px 17px 12px 17px;
+    margin-left: 19px;
+    background-color: #4af6cd;
+    display: inline-block;
+    position: relative;
+    transition: all .3s ease-out;
+    border: 1px solid transparent; 
+}
+
+.logo__logo span:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 1px;
+    background-color: #ffffff;
+    top: 50%;
+    left: -8px;
+}
+
+.logo__logo span:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+}

@@ -1,0 +1,32 @@
+.page-title {
+    font-weight: 800;
+    font-size: 174px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+}
+
+.page-title--line-height-140 {
+    line-height: 140px;
+}
+
+@media screen and (max-width: 1440px) {
+    .page-title {
+        font-size: 125px!important;
+    }
+
+    .page-title--line-height-140 {
+        line-height: 116px!important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .page-title {
+        font-size: 97px!important;
+    }
+
+    .page-title--line-height-140 {
+        line-height: 82px!important;
+    }
+}

@@ -1,0 +1,44 @@
+.right-arrows {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    border: 1px solid #5f6668;
+    color: transparent;
+    width: 50px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 0 50px 50px 0;
+}
+
+
+.right-arrows:hover {
+    cursor: pointer;
+}
+
+.right-arrows__img {
+    animation: hue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    opacity: 1;
+}
+
+@keyframes hue {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .right-arrows {
+        display: flex;
+    }
+
+}

@@ -1,0 +1,46 @@
+.information {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 65px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text__text:nth-child(2) {
+    margin-right: 10px;
+}
+
+.text__text--sm {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: .75;
+    letter-spacing: 5px;
+    width: 100%;   
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .information-title {
+        height: 90%;
+    }
+
+    .information__item {
+        height: calc(90vw / 4);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .information__value {
+        font-size: 25px;
+    }
+ 
+    .text__text--sm {
+        font-size: 10px;
+    }
+}

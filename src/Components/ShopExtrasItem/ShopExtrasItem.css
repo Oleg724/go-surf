@@ -1,0 +1,30 @@
+.extras__item {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.extras__item:last-child {
+    margin-right: 0;
+}
+
+.extras__text {
+    opacity: .5;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.extras__img {
+    display: flex;
+    justify-content: center;
+    height: 172px;
+}
+
+.img__img {
+    max-height: 130px;
+    margin: auto 0;
+}
+
+.extras__price {
+    margin: 10px;
+}

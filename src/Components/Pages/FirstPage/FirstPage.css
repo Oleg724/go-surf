@@ -1,0 +1,28 @@
+.section {
+    position: relative;
+}
+
+.arrows-wrapper-position-absolute {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: calc((100vw - 1200px)/2);
+}
+
+.page-title-wrapper--position-absolute {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1260px) {
+    .arrows-wrapper-position-absolute {
+        margin-top: 30px;
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        right: 5%;
+    }
+}

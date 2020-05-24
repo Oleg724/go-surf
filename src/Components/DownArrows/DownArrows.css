@@ -1,0 +1,43 @@
+.down-arrows {
+    position: absolute;
+    bottom: 30px;
+    left: 185px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.down-arrows__img {
+    animation: hue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    opacity: 1;
+}
+
+@keyframes hue {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .down-arrows {
+        left: 135px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .down-arrows {
+        bottom: 87px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .down-arrows {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,26 @@
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+    fill: none;
+    cursor: pointer;
+}
+
+.arrows__img path {
+    fill: #ffffff;
+}
+
+.arrows__img {
+    width: 25px;
+}
+
+.arrows__img:first-child {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1260px) {
+    .arrows {
+        right: 5%;
+    }
+}
