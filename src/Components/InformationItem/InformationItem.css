@@ -2,8 +2,9 @@
     width: 25%;
     display: flex;
     justify-content: flex-start;
-    height: calc(100vw / 4);
+    height: 300px;
     max-height: 300px;
+    min-width: 300px;
     position: relative;
 }
 

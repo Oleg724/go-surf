@@ -3,7 +3,7 @@
 }
 
 .image-wrapper:nth-child(1) {
-    top: 54%;
+    top: 49%;
 }
 
 .image-wrapper:nth-child(2) {
@@ -62,9 +62,3 @@
         transform: translateY(-141%);
     }
 }
-
-/* @media screen and (max-width: 360px) {
-    .image-wrapper--top:nth-child(3) {
-        top: 40%;
-    }
-} */

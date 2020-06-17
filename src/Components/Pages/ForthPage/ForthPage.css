@@ -95,7 +95,7 @@
     }
 
     .container--column {
-        width: calc(100vw - 10%);
+        width: 90vw;
         margin: 0 auto;
     }
 
